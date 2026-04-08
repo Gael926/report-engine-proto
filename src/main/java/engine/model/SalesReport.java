@@ -3,7 +3,7 @@ package engine.model;
 import java.util.List;
 
 public class SalesReport extends Report {
-    SalesReport(String id, String title) {
+    public SalesReport(String id, String title) {
         super(id, title);
     }
 
