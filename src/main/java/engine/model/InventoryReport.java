@@ -5,8 +5,6 @@ public class InventoryReport extends Report {
         super(id, title);
     }
 
-    int stock;
-
     @Override
     public String generateSummary() {
         int inStockCount = 0;

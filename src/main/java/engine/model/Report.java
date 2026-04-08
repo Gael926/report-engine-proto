@@ -40,8 +40,8 @@ public abstract class Report {
         return records;
     }
 
-    public void setReportDate(ReportStatus reportDate) {
-        this.reportStatus = reportDate;
+    public void setReportStatus(ReportStatus status) {
+        this.reportStatus = status;
     }
     public void setRecords(List<DataRecord> records) {
         this.records = records;
